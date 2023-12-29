@@ -1,0 +1,56 @@
+.flex {
+    display: flex;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.itemsCenter {
+    align-items: center;
+}
+
+
+/* .bg-black {
+    background-color: black;
+    color: white;
+} */
+
+.bgGrey {
+    background: #121212;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.inverted {
+    filter: invert(1);
+}
+.iconWidth{
+    width: 24px;
+}
+.mg-1{
+    margin: 10px;
+}
+
+.p-1{
+    padding: 20px;
+}
+
+.roundButton{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 32px;
+    height: 32px;
+    background:rgba(0,0,0,.7);
+    border-radius: 50%;
+    border: none;
+    padding:7px 0 ;
+    opacity: .6;
+}
+
+.roundButton:hover{
+    cursor: pointer;
+}
